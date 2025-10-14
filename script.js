@@ -180,14 +180,14 @@ function initPortfolio() {
             id: 7,
             category: 'editorial',
             title: 'Fashion Portrait',
-            image: 'assets/editorial/IMG_2378 копия2.jpeg',
+            image: 'assets/editorial/IMG_2378_copy2.jpeg',
             description: 'Editorial portrait'
         },
         {
             id: 8,
             category: 'editorial',
             title: 'Creative Shoot',
-            image: 'assets/editorial/IMG_2383 копия2.jpeg',
+            image: 'assets/editorial/IMG_2383_copy2.jpeg',
             description: 'Artistic fashion'
         },
         {
