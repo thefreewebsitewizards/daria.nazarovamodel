@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daria Nazarova - New York Model</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-text">DARIA NAZAROVA</div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">DARIA NAZAROVA</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#about" class="nav-link">About Me</a>
+                <a href="#plus-size" class="nav-link">Plus Size Model NYC</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-video">
+            <video autoplay muted loop playsinline preload="auto" poster="assets/editorial/IMG_0199.JPG">
+                <source src="assets/videos/1.mp4" type="video/mp4">
+                <source src="assets/videos/1.2 new (основной).mp4" type="video/mp4">
+                <source src="assets/videos/IMG_3590.mp4" type="video/mp4">
+                <source src="assets/runaway/GEO VANASCO_NYC 2.mp4" type="video/mp4">
+                <source src="assets/runaway/NYFW.mp4" type="video/mp4">
+                <!-- Fallback image if video doesn't load -->
+            </video>
+            <div class="hero-fallback"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">New York Model</h1>
+            <p class="hero-subtitle">Redefining Modern Beauty Standards</p>
+            <div class="hero-cta">
+                <a href="#portfolio" class="btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn-secondary">Book Now</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-content">
+                <h2 class="section-title">Welcome</h2>
+                <p class="intro-text">Welcome to the official portfolio of Daria Nazarova – NYC-based plus-size model redefining modern beauty standards.</p>
+            </div>
+            <div class="hero-image">
+                <img src="assets/editorial/IMG_3398.JPG" alt="Daria Nazarova" class="hero-img" loading="lazy" decoding="async">
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="editorial">Editorial</button>
+                <button class="filter-btn" data-filter="commercial">Commercial & Magazines</button>
+                <button class="filter-btn" data-filter="runway">Runway</button>
+            </div>
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Portfolio items will be dynamically loaded -->
+            </div>
+            <div class="portfolio-actions">
+                <button id="see-more-btn" class="btn-primary see-more-btn">See More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/editorial/1_ 48.jpeg" alt="Daria Nazarova Headshot" class="about-img" loading="lazy" decoding="async">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        Daria Nazarova is a New York–based plus-size model and creative force redefining modern beauty standards. Originally from Siberia, she has built an international career across editorials, campaigns, and runways, with features in Harper's Bazaar, L'Officiel, OK! Magazine, and more.
+                    </p>
+                    <p class="about-description">
+                        On the catwalk, she has graced New York Fashion Week, Swim Week, and Bridal Fashion Week, while off the runway she serves as a jury member and speaker at global fashion and beauty events. With every project, Daria delivers not just images but a message: confidence and style have no size.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-label">Height</span>
+                            <span class="stat-value">5'8'' / 173 cm</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Bust</span>
+                            <span class="stat-value">39'' / 99 cm</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Waist</span>
+                            <span class="stat-value">38'' / 96.5 cm</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Hips</span>
+                            <span class="stat-value">49'' / 124.5 cm</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Shoe</span>
+                            <span class="stat-value">9.5 US / 40.5 EU</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Hair</span>
+                            <span class="stat-value">Blonde</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Eyes</span>
+                            <span class="stat-value">Grey</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plus Size Model NYC Section -->
+    <section id="plus-size" class="plus-size-section">
+        <div class="container">
+            <div class="plus-size-content">
+                <h2 class="section-title">Plus Size Model NYC</h2>
+                <p class="plus-size-text">
+                    Daria Nazarova is more than a model – she is a representative of body diversity and confidence in the fashion industry. As a plus-size model based in NYC, her mission is to celebrate individuality and challenge industry norms.
+                </p>
+                <div class="achievements">
+                    <div class="achievement-item">
+                        <i class="fas fa-star"></i>
+                        <span>Featured in Harper's Bazaar</span>
+                    </div>
+                    <div class="achievement-item">
+                        <i class="fas fa-star"></i>
+                        <span>L'Officiel Magazine</span>
+                    </div>
+                    <div class="achievement-item">
+                        <i class="fas fa-star"></i>
+                        <span>OK! Magazine</span>
+                    </div>
+                    <div class="achievement-item">
+                        <i class="fas fa-runway"></i>
+                        <span>New York Fashion Week</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Ready to work together? Let's create something amazing.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>booking@darianazarova.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>New York, NY</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>DARIA NAZAROVA</h3>
+                    <p>New York Model</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Daria Nazarova. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Media Modal -->
+    <div id="image-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content-wrapper">
+            <img class="modal-content" id="modal-image" style="display: none;">
+            <video class="modal-content" id="modal-video" controls style="display: none;">
+                <source id="modal-video-source" src="" type="video/mp4">
+                <source id="modal-video-source-mov" src="" type="video/mov">
+            </video>
+        </div>
+        <div class="modal-nav">
+            <button class="modal-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="modal-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
