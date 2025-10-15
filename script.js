@@ -179,124 +179,153 @@ function initPortfolio() {
         {
             id: 7,
             category: 'editorial',
-            title: 'Fashion Portrait',
-            image: 'assets/editorial/IMG_2378_copy2.jpeg',
-            description: 'Editorial portrait'
+            title: 'Fashion Editorial',
+            image: 'assets/editorial/IMG_3273.JPG',
+            description: 'High fashion editorial'
         },
+
         {
-            id: 8,
-            category: 'editorial',
-            title: 'Creative Shoot',
-            image: 'assets/editorial/IMG_2383_copy2.jpeg',
-            description: 'Artistic fashion'
-        },
-        {
-            id: 9,
+            id: 7,
             category: 'editorial',
             title: 'Fashion Editorial',
             image: 'assets/editorial/IMG_3273.JPG',
             description: 'High fashion editorial'
         },
         {
-            id: 10,
+            id: 8,
             category: 'editorial',
             title: 'Studio Session',
             image: 'assets/editorial/IMG_3398.JPG',
             description: 'Professional shoot'
         },
         {
-            id: 11,
+            id: 9,
             category: 'editorial',
             title: 'Editorial Portrait',
             image: 'assets/editorial/IMG_3403.JPG',
             description: 'Fashion portrait'
         },
         {
-            id: 12,
+            id: 10,
             category: 'editorial',
             title: 'Creative Work',
             image: 'assets/editorial/IMG_3405.JPG',
             description: 'Artistic editorial'
         },
         {
-            id: 13,
+            id: 11,
             category: 'editorial',
             title: 'Fashion Story',
             image: 'assets/editorial/IMG_3433.JPG',
             description: 'Editorial narrative'
         },
         {
-            id: 14,
+            id: 12,
             category: 'editorial',
             title: 'Fashion Editorial',
             image: 'assets/editorial/IMG_4997.JPG',
             description: 'Editorial fashion'
         },
         {
-            id: 15,
+            id: 13,
             category: 'editorial',
             title: 'Studio Session',
             image: 'assets/editorial/IMG_6195.JPG',
             description: 'Professional shoot'
         },
         {
-            id: 16,
+            id: 14,
             category: 'editorial',
             title: 'Fashion Portrait',
             image: 'assets/editorial/IMG_6204.JPG',
             description: 'Editorial portrait'
         },
         {
-            id: 17,
+            id: 15,
             category: 'editorial',
             title: 'Creative Shoot',
             image: 'assets/editorial/IMG_6308.JPG',
             description: 'Artistic fashion'
         },
         {
-            id: 18,
+            id: 16,
             category: 'editorial',
             title: 'Professional Shoot',
             image: 'assets/editorial/Z8V_3634.jpeg',
             description: 'Editorial fashion'
         },
         {
-            id: 19,
+            id: 17,
             category: 'editorial',
             title: 'Fashion Editorial',
             image: 'assets/editorial/Z8V_3670.jpeg',
             description: 'High fashion editorial'
         },
         {
-            id: 20,
+            id: 18,
             category: 'judging',
             title: 'Competition Work',
             image: 'assets/judging/IMG_4862.JPG',
             description: 'Professional judging'
         },
         {
-            id: 21,
+            id: 19,
             category: 'judging',
             title: 'Fashion Competition',
             image: 'assets/judging/IMG_5388.JPG',
             description: 'Competition entry'
         },
         {
-            id: 22,
+            id: 20,
             category: 'judging',
             title: 'Professional Judging',
             image: 'assets/judging/IMG_7062.JPG',
             description: 'Industry work'
         },
         {
-            id: 23,
+            id: 21,
             category: 'judging',
             title: 'Competition Judge',
             image: 'assets/judging/IMG_7066.JPG',
             description: 'Professional judging'
         },
         {
+            id: 22,
+            category: 'judging',
+            title: 'Fashion Competition',
+            image: 'assets/judging/2db2b52c5e903d1176247a9aa7d6a0c4.heic',
+            description: 'Competition work'
+        },
+        {
+            id: 23,
+            category: 'judging',
+            title: 'Professional Judging',
+            image: 'assets/judging/81f094cfbb8a1e90828178b3f69cf601.heic',
+            description: 'Industry judging'
+        },
+        {
             id: 24,
+            category: 'judging',
+            title: 'Competition Entry',
+            image: 'assets/judging/IMG_1406.HEIC',
+            description: 'Fashion competition'
+        },
+        {
+            id: 25,
+            category: 'judging',
+            title: 'Professional Work',
+            image: 'assets/judging/IMG_2406.HEIC',
+            description: 'Industry work'
+        },
+        {
+            id: 26,
+            category: 'judging',
+            title: 'Competition Judge',
+            image: 'assets/judging/IMG_5083.HEIC',
+            description: 'Professional judging'
+        },
+        {
+            id: 27,
             category: 'runaway',
             title: 'NYC Fashion Week',
             image: 'assets/runaway/GEO VANASCO_NYC 2.mp4',
@@ -304,7 +333,7 @@ function initPortfolio() {
             isVideo: true
         },
         {
-            id: 25,
+            id: 28,
             category: 'runaway',
             title: 'NYFW Runway',
             image: 'assets/runaway/NYFW.mp4',
@@ -312,7 +341,7 @@ function initPortfolio() {
             isVideo: true
         },
         {
-            id: 26,
+            id: 29,
             category: 'runaway',
             title: 'Runway Show',
             image: 'assets/runaway/copy_179DDED4-599D-474F-B58E-F20A622604AF.mov',
